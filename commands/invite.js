@@ -8,8 +8,8 @@ module.exports.run = async (client, message, args) => {
 
     let invite = new Discord.MessageEmbed()
     .setTitle("Invite & Support Link!")
-    .addField("Invite Link", "[Click here to invite me](https://discordapp.com/api/oauth2/authorize?client_id=606587080042086420&permissions=8&scope=bot)")
-    .addField("Support Server", "[Click to join support Server](https://discord.gg/wjBJJUY)")
+    .addField("Invite Link", "[Invite Me 🥺](https://discord.com/api/oauth2/authorize?client_id=765843964031926302&permissions=8&scope=bot)")
+    .addField("Support Server", "[Click to join support Server](https://discord.gg/ZqPHmcW)")
     .setTimestamp()
     .setFooter(`Requested by ${message.author.tag}`, client.user.displayAvatarURL())
     message.channel.send(invite);
